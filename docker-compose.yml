@@ -1,0 +1,13 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file: .env
+    environment:
+      ENVIRONMENT: production
+      CHROMA_DIR: /app/chroma_db
+      SUVYATRA_API_URL: ${SUVYATRA_API_URL:-http://host.docker.internal:5000/api}
+    volumes:
+      - ./chroma_db:/app/chroma_db
+    restart: unless-stopped
