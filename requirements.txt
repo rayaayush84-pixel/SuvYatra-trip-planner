@@ -1,0 +1,10 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic-settings>=2.4
+langchain-core
+langchain-text-splitters
+langchain-google-genai
+langchain-chroma
+chromadb
+requests
+beautifulsoup4
