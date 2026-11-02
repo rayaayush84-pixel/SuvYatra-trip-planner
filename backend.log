@@ -1,0 +1,519 @@
+INFO:     Started server process [57640]
+INFO:     Waiting for application startup.
+2026-09-24 09:16:51,368 | INFO     | app | Ready with 230 chunks
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-09-24 09:17:18,485 | INFO     | app | GET /health -> 200 (14 ms) [81126fc6]
+INFO:     127.0.0.1:56456 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:17:18,490 | INFO     | app | GET /v1/models -> 404 (3 ms) [57d04bdb]
+INFO:     127.0.0.1:56456 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:17:48,495 | INFO     | app | GET /health -> 200 (1 ms) [66fc6c27]
+INFO:     127.0.0.1:58596 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:17:48,497 | INFO     | app | GET /v1/models -> 404 (0 ms) [9a775656]
+INFO:     127.0.0.1:58596 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:18:18,501 | INFO     | app | GET /health -> 200 (1 ms) [4bb72f1c]
+INFO:     127.0.0.1:58846 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:18:18,502 | INFO     | app | GET /v1/models -> 404 (0 ms) [fd0c1ca2]
+INFO:     127.0.0.1:58846 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:18:48,508 | INFO     | app | GET /health -> 200 (1 ms) [c7486264]
+INFO:     127.0.0.1:61584 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:18:48,510 | INFO     | app | GET /v1/models -> 404 (0 ms) [5dccfc0f]
+INFO:     127.0.0.1:61584 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:19:18,514 | INFO     | app | GET /health -> 200 (1 ms) [c12efffd]
+INFO:     127.0.0.1:60603 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:19:18,516 | INFO     | app | GET /v1/models -> 404 (0 ms) [6ab9044b]
+INFO:     127.0.0.1:60603 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:19:48,523 | INFO     | app | GET /health -> 200 (1 ms) [6698fc04]
+INFO:     127.0.0.1:64239 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:19:48,525 | INFO     | app | GET /v1/models -> 404 (0 ms) [673c5693]
+INFO:     127.0.0.1:64239 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:20:18,529 | INFO     | app | GET /health -> 200 (1 ms) [454c55d7]
+INFO:     127.0.0.1:51786 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:20:18,530 | INFO     | app | GET /v1/models -> 404 (0 ms) [ba7eb941]
+INFO:     127.0.0.1:51786 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:20:48,536 | INFO     | app | GET /health -> 200 (1 ms) [29e1cf41]
+INFO:     127.0.0.1:59914 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:20:48,539 | INFO     | app | GET /v1/models -> 404 (0 ms) [31f7323f]
+INFO:     127.0.0.1:59914 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:21:18,545 | INFO     | app | GET /health -> 200 (2 ms) [a67c5814]
+INFO:     127.0.0.1:60325 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:21:18,547 | INFO     | app | GET /v1/models -> 404 (0 ms) [68f4ace6]
+INFO:     127.0.0.1:60325 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:21:48,551 | INFO     | app | GET /health -> 200 (1 ms) [6b2364c2]
+INFO:     127.0.0.1:59114 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:21:48,552 | INFO     | app | GET /v1/models -> 404 (0 ms) [0bc5ce4b]
+INFO:     127.0.0.1:59114 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:22:18,556 | INFO     | app | GET /health -> 200 (1 ms) [2304024a]
+INFO:     127.0.0.1:59121 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:22:18,557 | INFO     | app | GET /v1/models -> 404 (0 ms) [b0d930f0]
+INFO:     127.0.0.1:59121 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:22:48,562 | INFO     | app | GET /health -> 200 (1 ms) [425908ad]
+INFO:     127.0.0.1:56116 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:22:48,564 | INFO     | app | GET /v1/models -> 404 (0 ms) [0340f462]
+INFO:     127.0.0.1:56116 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:23:18,569 | INFO     | app | GET /health -> 200 (1 ms) [5e0fa970]
+INFO:     127.0.0.1:52176 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:23:18,570 | INFO     | app | GET /v1/models -> 404 (0 ms) [ca24a424]
+INFO:     127.0.0.1:52176 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:23:48,573 | INFO     | app | GET /health -> 200 (1 ms) [e9e95520]
+INFO:     127.0.0.1:54995 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:23:48,577 | INFO     | app | GET /v1/models -> 404 (0 ms) [fec9a1eb]
+INFO:     127.0.0.1:54995 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:24:18,581 | INFO     | app | GET /health -> 200 (0 ms) [ee570d54]
+INFO:     127.0.0.1:63044 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:24:18,582 | INFO     | app | GET /v1/models -> 404 (0 ms) [2444c4ff]
+INFO:     127.0.0.1:63044 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:24:48,584 | INFO     | app | GET /health -> 200 (0 ms) [e9ea7941]
+INFO:     127.0.0.1:61656 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:24:48,585 | INFO     | app | GET /v1/models -> 404 (0 ms) [1bcd694a]
+INFO:     127.0.0.1:61656 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:25:18,588 | INFO     | app | GET /health -> 200 (1 ms) [02725973]
+INFO:     127.0.0.1:64482 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:25:18,589 | INFO     | app | GET /v1/models -> 404 (0 ms) [1865dd43]
+INFO:     127.0.0.1:64482 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:25:48,592 | INFO     | app | GET /health -> 200 (1 ms) [00c7ef43]
+INFO:     127.0.0.1:54946 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:25:48,593 | INFO     | app | GET /v1/models -> 404 (0 ms) [dcc3f339]
+INFO:     127.0.0.1:54946 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:26:18,594 | INFO     | app | GET /health -> 200 (0 ms) [d5f64dba]
+INFO:     127.0.0.1:52371 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:26:18,595 | INFO     | app | GET /v1/models -> 404 (0 ms) [dd41c31a]
+INFO:     127.0.0.1:52371 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:26:48,599 | INFO     | app | GET /health -> 200 (1 ms) [61b1106b]
+INFO:     127.0.0.1:60604 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:26:48,600 | INFO     | app | GET /v1/models -> 404 (0 ms) [eb43b055]
+INFO:     127.0.0.1:60604 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:27:18,603 | INFO     | app | GET /health -> 200 (1 ms) [df6cb64d]
+INFO:     127.0.0.1:60612 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:27:18,604 | INFO     | app | GET /v1/models -> 404 (0 ms) [6dc3aab2]
+INFO:     127.0.0.1:60612 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:27:48,606 | INFO     | app | GET /health -> 200 (1 ms) [0bb1c09a]
+INFO:     127.0.0.1:58321 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:27:48,607 | INFO     | app | GET /v1/models -> 404 (0 ms) [38e3c4f0]
+INFO:     127.0.0.1:58321 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:28:18,609 | INFO     | app | GET /health -> 200 (1 ms) [cf5bab26]
+INFO:     127.0.0.1:58324 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:28:18,610 | INFO     | app | GET /v1/models -> 404 (0 ms) [2c864833]
+INFO:     127.0.0.1:58324 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:28:48,612 | INFO     | app | GET /health -> 200 (1 ms) [a667bb44]
+INFO:     127.0.0.1:54647 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:28:48,614 | INFO     | app | GET /v1/models -> 404 (0 ms) [409a34cd]
+INFO:     127.0.0.1:54647 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:29:18,617 | INFO     | app | GET /health -> 200 (1 ms) [3f8db767]
+INFO:     127.0.0.1:54652 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:29:18,618 | INFO     | app | GET /v1/models -> 404 (0 ms) [792f62e2]
+INFO:     127.0.0.1:54652 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:29:48,619 | INFO     | app | GET /health -> 200 (1 ms) [e9acb793]
+INFO:     127.0.0.1:65490 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:29:48,621 | INFO     | app | GET /v1/models -> 404 (0 ms) [29b3bc53]
+INFO:     127.0.0.1:65490 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:30:18,623 | INFO     | app | GET /health -> 200 (1 ms) [1aef504b]
+INFO:     127.0.0.1:54728 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:30:18,625 | INFO     | app | GET /v1/models -> 404 (0 ms) [42c4930b]
+INFO:     127.0.0.1:54728 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:30:48,630 | INFO     | app | GET /health -> 200 (1 ms) [698de980]
+INFO:     127.0.0.1:61545 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:30:48,636 | INFO     | app | GET /v1/models -> 404 (0 ms) [596dc928]
+INFO:     127.0.0.1:61545 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:31:18,638 | INFO     | app | GET /health -> 200 (1 ms) [79e0a909]
+INFO:     127.0.0.1:61549 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:31:18,639 | INFO     | app | GET /v1/models -> 404 (0 ms) [d88800fd]
+INFO:     127.0.0.1:61549 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:31:48,643 | INFO     | app | GET /health -> 200 (1 ms) [49537f7b]
+INFO:     127.0.0.1:65166 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:31:48,644 | INFO     | app | GET /v1/models -> 404 (0 ms) [80b542f4]
+INFO:     127.0.0.1:65166 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:32:18,647 | INFO     | app | GET /health -> 200 (1 ms) [5d042d50]
+INFO:     127.0.0.1:65172 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:32:18,648 | INFO     | app | GET /v1/models -> 404 (0 ms) [b6a5f42c]
+INFO:     127.0.0.1:65172 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:32:48,653 | INFO     | app | GET /health -> 200 (1 ms) [8b87d548]
+INFO:     127.0.0.1:63815 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:32:48,654 | INFO     | app | GET /v1/models -> 404 (0 ms) [eb1956ab]
+INFO:     127.0.0.1:63815 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:33:18,656 | INFO     | app | GET /health -> 200 (1 ms) [c70544ca]
+INFO:     127.0.0.1:63819 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:33:18,657 | INFO     | app | GET /v1/models -> 404 (0 ms) [36d261b1]
+INFO:     127.0.0.1:63819 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:33:48,659 | INFO     | app | GET /health -> 200 (1 ms) [81f29eba]
+INFO:     127.0.0.1:56302 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:33:48,662 | INFO     | app | GET /v1/models -> 404 (0 ms) [e2d05cd7]
+INFO:     127.0.0.1:56302 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:34:18,665 | INFO     | app | GET /health -> 200 (1 ms) [7cbdb08c]
+INFO:     127.0.0.1:56308 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:34:18,667 | INFO     | app | GET /v1/models -> 404 (0 ms) [7de9e7b2]
+INFO:     127.0.0.1:56308 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:34:48,669 | INFO     | app | GET /health -> 200 (1 ms) [207bfccb]
+INFO:     127.0.0.1:50814 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:34:48,670 | INFO     | app | GET /v1/models -> 404 (0 ms) [763a7c3d]
+INFO:     127.0.0.1:50814 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:35:18,673 | INFO     | app | GET /health -> 200 (1 ms) [81e7ef89]
+INFO:     127.0.0.1:50818 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:35:18,674 | INFO     | app | GET /v1/models -> 404 (0 ms) [2a44dbfd]
+INFO:     127.0.0.1:50818 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:35:48,675 | INFO     | app | GET /health -> 200 (1 ms) [b2b5237b]
+INFO:     127.0.0.1:52629 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:35:48,677 | INFO     | app | GET /v1/models -> 404 (0 ms) [bb109d53]
+INFO:     127.0.0.1:52629 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:36:18,679 | INFO     | app | GET /health -> 200 (1 ms) [ef292727]
+INFO:     127.0.0.1:53640 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:36:18,679 | INFO     | app | GET /v1/models -> 404 (0 ms) [8e5f824b]
+INFO:     127.0.0.1:53640 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:36:48,681 | INFO     | app | GET /health -> 200 (1 ms) [c6cc2fd4]
+INFO:     127.0.0.1:64868 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:36:48,682 | INFO     | app | GET /v1/models -> 404 (0 ms) [7f592d5f]
+INFO:     127.0.0.1:64868 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:37:18,685 | INFO     | app | GET /health -> 200 (1 ms) [2d89e75e]
+INFO:     127.0.0.1:49748 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:37:18,686 | INFO     | app | GET /v1/models -> 404 (0 ms) [dc00d38e]
+INFO:     127.0.0.1:49748 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:37:48,688 | INFO     | app | GET /health -> 200 (1 ms) [011c281f]
+INFO:     127.0.0.1:59266 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:37:48,689 | INFO     | app | GET /v1/models -> 404 (0 ms) [737a262d]
+INFO:     127.0.0.1:59266 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:38:18,691 | INFO     | app | GET /health -> 200 (1 ms) [dabcef93]
+INFO:     127.0.0.1:60293 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:38:18,692 | INFO     | app | GET /v1/models -> 404 (0 ms) [4e41613d]
+INFO:     127.0.0.1:60293 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:38:48,694 | INFO     | app | GET /health -> 200 (1 ms) [d1c015a1]
+INFO:     127.0.0.1:49684 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:38:48,695 | INFO     | app | GET /v1/models -> 404 (0 ms) [3c214350]
+INFO:     127.0.0.1:49684 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:39:18,698 | INFO     | app | GET /health -> 200 (0 ms) [ec5a76c6]
+INFO:     127.0.0.1:51808 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:39:18,699 | INFO     | app | GET /v1/models -> 404 (0 ms) [aebcd174]
+INFO:     127.0.0.1:51808 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:39:48,702 | INFO     | app | GET /health -> 200 (0 ms) [5efbadf5]
+INFO:     127.0.0.1:60982 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:39:48,703 | INFO     | app | GET /v1/models -> 404 (0 ms) [a3997acd]
+INFO:     127.0.0.1:60982 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:40:18,706 | INFO     | app | GET /health -> 200 (1 ms) [70fafea0]
+INFO:     127.0.0.1:56563 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:40:18,707 | INFO     | app | GET /v1/models -> 404 (0 ms) [c21ab0d7]
+INFO:     127.0.0.1:56563 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:40:48,709 | INFO     | app | GET /health -> 200 (0 ms) [559ad2f3]
+INFO:     127.0.0.1:53866 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:40:48,711 | INFO     | app | GET /v1/models -> 404 (0 ms) [16da5731]
+INFO:     127.0.0.1:53866 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:41:18,713 | INFO     | app | GET /health -> 200 (1 ms) [db099661]
+INFO:     127.0.0.1:54705 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:41:18,714 | INFO     | app | GET /v1/models -> 404 (0 ms) [8d0c131c]
+INFO:     127.0.0.1:54705 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:41:48,717 | INFO     | app | GET /health -> 200 (1 ms) [1165cfe9]
+INFO:     127.0.0.1:53787 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:41:48,719 | INFO     | app | GET /v1/models -> 404 (0 ms) [7d102633]
+INFO:     127.0.0.1:53787 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:42:18,720 | INFO     | app | GET /health -> 200 (1 ms) [bd377db1]
+INFO:     127.0.0.1:53792 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:42:18,722 | INFO     | app | GET /v1/models -> 404 (0 ms) [6220c695]
+INFO:     127.0.0.1:53792 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:42:48,724 | INFO     | app | GET /health -> 200 (0 ms) [93f4500e]
+INFO:     127.0.0.1:60633 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:42:48,726 | INFO     | app | GET /v1/models -> 404 (0 ms) [aea592f1]
+INFO:     127.0.0.1:60633 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:43:18,730 | INFO     | app | GET /health -> 200 (2 ms) [41090f8e]
+INFO:     127.0.0.1:60640 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:43:18,732 | INFO     | app | GET /v1/models -> 404 (0 ms) [7767879a]
+INFO:     127.0.0.1:60640 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:43:48,734 | INFO     | app | GET /health -> 200 (1 ms) [80989f7a]
+INFO:     127.0.0.1:53520 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:43:48,735 | INFO     | app | GET /v1/models -> 404 (0 ms) [37e48882]
+INFO:     127.0.0.1:53520 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:44:17,062 | INFO     | app | GET /ready -> 200 (17 ms) [7b08d95a]
+INFO:     127.0.0.1:50387 - "GET /ready HTTP/1.1" 200 OK
+2026-09-24 09:44:18,737 | INFO     | app | GET /health -> 200 (1 ms) [8e0b5bd7]
+INFO:     127.0.0.1:50391 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:44:18,738 | INFO     | app | GET /v1/models -> 404 (0 ms) [e5f08863]
+INFO:     127.0.0.1:50391 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:44:20,081 | INFO     | app | OPTIONS /api/v1/chat/stream -> 200 (0 ms) [f5b4fc04]
+INFO:     127.0.0.1:50387 - "OPTIONS /api/v1/chat/stream HTTP/1.1" 200 OK
+2026-09-24 09:44:20,219 | INFO     | app | POST /api/v1/chat/stream -> 200 (135 ms) [09f486aa]
+INFO:     127.0.0.1:50387 - "POST /api/v1/chat/stream HTTP/1.1" 200 OK
+C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\langchain_google_genai\chat_models.py:3908: UserWarning: Model 'gemini-3.6-flash' uses fixed sampling defaults; the sampling parameter(s) temperature will be ignored.
+  request = self._build_request_config(
+2026-09-24 09:44:21,362 | INFO     | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-09-24 09:44:21,362 | WARNING  | google_genai.models | Direct use of automatic function calling (AFC) in AsyncModels.generate_content_stream is not recommended. Instead, we recommend to use AFC in AsyncChat.send_message_stream. Similarly, direct use of AFC in AsyncModels.generate_content is not recommended. Instead, we recommend to use AFC in AsyncChat.send_message.
+2026-09-24 09:44:23,189 | INFO     | google_genai._api_client | Retrying google.genai._api_client.BaseApiClient._async_request_once in 1.46 seconds as it raised ServerError: 503 Service Unavailable. {'message': '{\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",\n    "status": "UNAVAILABLE"\n  }\n}\n', 'status': 'Service Unavailable'}.
+2026-09-24 09:44:25,939 | ERROR    | app.api.routes.chat | Streaming chat failed
+Traceback (most recent call last):
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\langchain_google_genai\chat_models.py", line 387, in _aclassified_stream
+    async for chunk in response:
+        yield chunk
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\google\genai\models.py", line 8718, in stream_generator
+    response = await self._generate_content_stream(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\google\genai\models.py", line 7024, in _generate_content_stream
+    response_stream = await self._api_client.async_request_streamed(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        'post', path, request_dict, http_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\google\genai\_api_client.py", line 1813, in async_request_streamed
+    response = await self._async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        http_request=http_request, http_options=http_options, stream=True
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\google\genai\_api_client.py", line 1728, in _async_request
+    return await retry(self._async_request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 157, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\tenacity\_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\tenacity\__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\tenacity\__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\PREDATOR\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 453, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\PREDATOR\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 402, in __get_result
+    raise self._exception
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\tenacity\asyncio\__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\google\genai\_api_client.py", line 1611, in _async_request_once
+    await errors.APIError.raise_for_async_response(response)
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\google\genai\errors.py", line 265, in raise_for_async_response
+    await cls.raise_error_async(status_code, response_json, response)
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\google\genai\errors.py", line 289, in raise_error_async
+    raise ServerError(status_code, response_json, response)
+google.genai.errors.ServerError: 503 Service Unavailable. {'message': '{\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",\n    "status": "UNAVAILABLE"\n  }\n}\n', 'status': 'Service Unavailable'}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\app\api\routes\chat.py", line 33, in events
+    async for token, sources in rag.stream(body.question, body.history):
+    ...<4 lines>...
+            yield f"data: {json.dumps(payload)}\n\n"
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\app\rag\rag.py", line 127, in stream
+    async for token in self.chain.astream(inputs):
+        yield token, None
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\langchain_core\runnables\base.py", line 3860, in astream
+    async for chunk in self.atransform(input_aiter(), config, **kwargs):
+        yield chunk
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\langchain_core\runnables\base.py", line 3842, in atransform
+    async for chunk in self._atransform_stream_with_config(
+    ...<5 lines>...
+        yield chunk
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\langchain_core\runnables\base.py", line 2671, in _atransform_stream_with_config
+    chunk = await coro_with_context(anext(iterator), context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\langchain_core\runnables\base.py", line 3809, in _atransform
+    async for output in final_pipeline:
+        yield output
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\langchain_core\output_parsers\transform.py", line 93, in atransform
+    async for chunk in self._atransform_stream_with_config(
+    ...<2 lines>...
+        yield chunk
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\langchain_core\runnables\base.py", line 2630, in _atransform_stream_with_config
+    final_input: Input | None = await anext(input_for_tracing, None)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\langchain_core\utils\aiter.py", line 137, in tee_peer
+    item = await anext(iterator)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\langchain_core\runnables\base.py", line 1848, in atransform
+    async for output in self.astream(final, config, **kwargs):
+        yield output
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 927, in astream
+    async for chunk in self._astream(
+    ...<23 lines>...
+        yielded = True
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\langchain_google_genai\chat_models.py", line 4328, in _astream
+    async for chunk in _aclassified_stream(stream, request):
+    ...<17 lines>...
+        yield gen
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\langchain_google_genai\chat_models.py", line 392, in _aclassified_stream
+    _handle_server_error(e)
+    ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\langchain_google_genai\chat_models.py", line 339, in _handle_server_error
+    raise GoogleAPIError(
+    ...<3 lines>...
+    ) from e
+langchain_google_genai.chat_models.GoogleAPIError: 503 Service Unavailable. {'message': '{\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",\n    "status": "UNAVAILABLE"\n  }\n}\n', 'status': 'Service Unavailable'}
+C:\Users\PREDATOR\Desktop\try\chatbot\app\api\routes\chat.py:43: RuntimeWarning: coroutine 'ClientResponse.json' was never awaited
+  yield f"data: {json.dumps({'error': 'AI service failed'})}\n\n"
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+2026-09-24 09:44:28,929 | INFO     | app | POST /api/v1/chat/stream -> 200 (4 ms) [a3a0ee8f]
+INFO:     127.0.0.1:50387 - "POST /api/v1/chat/stream HTTP/1.1" 200 OK
+C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\langchain_google_genai\chat_models.py:3908: UserWarning: Model 'gemini-3.6-flash' uses fixed sampling defaults; the sampling parameter(s) temperature will be ignored.
+  request = self._build_request_config(
+2026-09-24 09:44:29,774 | INFO     | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-09-24 09:44:48,747 | INFO     | app | GET /health -> 200 (1 ms) [7ce5eb53]
+INFO:     127.0.0.1:62876 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:44:48,748 | INFO     | app | GET /v1/models -> 404 (0 ms) [e1bd0d6e]
+INFO:     127.0.0.1:62876 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:45:18,750 | INFO     | app | GET /health -> 200 (1 ms) [47a66af1]
+INFO:     127.0.0.1:62880 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:45:18,751 | INFO     | app | GET /v1/models -> 404 (0 ms) [7d5454aa]
+INFO:     127.0.0.1:62880 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:45:48,757 | INFO     | app | GET /health -> 200 (1 ms) [aa4a6fec]
+INFO:     127.0.0.1:62573 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:45:48,758 | INFO     | app | GET /v1/models -> 404 (0 ms) [ae436b08]
+INFO:     127.0.0.1:62573 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:46:18,761 | INFO     | app | GET /health -> 200 (0 ms) [0c507cc1]
+INFO:     127.0.0.1:63322 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:46:18,763 | INFO     | app | GET /v1/models -> 404 (0 ms) [e9f0f9a4]
+INFO:     127.0.0.1:63322 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:46:48,771 | INFO     | app | GET /health -> 200 (1 ms) [947cc8c5]
+INFO:     127.0.0.1:56692 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:46:48,772 | INFO     | app | GET /v1/models -> 404 (0 ms) [c52b01e7]
+INFO:     127.0.0.1:56692 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:47:18,777 | INFO     | app | GET /health -> 200 (1 ms) [0c44593f]
+INFO:     127.0.0.1:56735 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:47:18,779 | INFO     | app | GET /v1/models -> 404 (0 ms) [b932eb7e]
+INFO:     127.0.0.1:56735 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:47:48,787 | INFO     | app | GET /health -> 200 (1 ms) [1e12df4d]
+INFO:     127.0.0.1:49705 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:47:48,789 | INFO     | app | GET /v1/models -> 404 (0 ms) [0b5a6926]
+INFO:     127.0.0.1:49705 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:48:18,796 | INFO     | app | GET /health -> 200 (2 ms) [cc7549ef]
+INFO:     127.0.0.1:49721 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:48:18,797 | INFO     | app | GET /v1/models -> 404 (0 ms) [fcf9a768]
+INFO:     127.0.0.1:49721 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:48:36,119 | INFO     | app | GET /health -> 200 (1 ms) [0b1aa843]
+INFO:     127.0.0.1:57071 - "GET /health HTTP/1.1" 200 OK
+C:\Users\PREDATOR\Desktop\try\chatbot\venv\Lib\site-packages\langchain_google_genai\chat_models.py:3908: UserWarning: Model 'gemini-3.6-flash' uses fixed sampling defaults; the sampling parameter(s) temperature will be ignored.
+  request = self._build_request_config(
+2026-09-24 09:48:47,873 | INFO     | google_genai.models | AFC is enabled with max remote calls: 10.
+2026-09-24 09:48:48,805 | INFO     | app | GET /health -> 200 (1 ms) [744b7e02]
+INFO:     127.0.0.1:57089 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:48:48,807 | INFO     | app | GET /v1/models -> 404 (0 ms) [4927e430]
+INFO:     127.0.0.1:57089 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:48:51,874 | INFO     | app | POST /api/v1/chat -> 200 (5005 ms) [c39a0bb5]
+INFO:     127.0.0.1:57084 - "POST /api/v1/chat HTTP/1.1" 200 OK
+2026-09-24 09:49:18,814 | INFO     | app | GET /health -> 200 (1 ms) [c090ddee]
+INFO:     127.0.0.1:57106 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:49:18,816 | INFO     | app | GET /v1/models -> 404 (0 ms) [64ce28bb]
+INFO:     127.0.0.1:57106 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:49:40,861 | INFO     | app | GET /ready -> 200 (2 ms) [8e4bc7c3]
+INFO:     127.0.0.1:54433 - "GET /ready HTTP/1.1" 200 OK
+2026-09-24 09:49:48,818 | INFO     | app | GET /health -> 200 (1 ms) [a62bf26a]
+INFO:     127.0.0.1:54436 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:49:48,819 | INFO     | app | GET /v1/models -> 404 (0 ms) [68fafdb4]
+INFO:     127.0.0.1:54436 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:50:18,822 | INFO     | app | GET /health -> 200 (1 ms) [d19cb530]
+INFO:     127.0.0.1:54459 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:50:18,823 | INFO     | app | GET /v1/models -> 404 (0 ms) [866b89f6]
+INFO:     127.0.0.1:54459 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:50:48,826 | INFO     | app | GET /health -> 200 (1 ms) [75f7561c]
+INFO:     127.0.0.1:49842 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:50:48,827 | INFO     | app | GET /v1/models -> 404 (0 ms) [8440f452]
+INFO:     127.0.0.1:49842 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:51:18,829 | INFO     | app | GET /health -> 200 (1 ms) [e741cfb8]
+INFO:     127.0.0.1:52952 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:51:18,830 | INFO     | app | GET /v1/models -> 404 (0 ms) [9bfcf4e3]
+INFO:     127.0.0.1:52952 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:51:48,833 | INFO     | app | GET /health -> 200 (1 ms) [e3eebe48]
+INFO:     127.0.0.1:50553 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:51:48,835 | INFO     | app | GET /v1/models -> 404 (0 ms) [613f01bb]
+INFO:     127.0.0.1:50553 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:52:18,839 | INFO     | app | GET /health -> 200 (1 ms) [3288537a]
+INFO:     127.0.0.1:55965 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:52:18,840 | INFO     | app | GET /v1/models -> 404 (0 ms) [fb3e23ee]
+INFO:     127.0.0.1:55965 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:52:48,844 | INFO     | app | GET /health -> 200 (1 ms) [263aab9e]
+INFO:     127.0.0.1:51011 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:52:48,845 | INFO     | app | GET /v1/models -> 404 (0 ms) [b2d26715]
+INFO:     127.0.0.1:51011 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:53:18,908 | INFO     | app | GET /health -> 200 (58 ms) [3cbb0c73]
+INFO:     127.0.0.1:59100 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:53:18,910 | INFO     | app | GET /v1/models -> 404 (0 ms) [1b539633]
+INFO:     127.0.0.1:59100 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:53:48,916 | INFO     | app | GET /health -> 200 (2 ms) [807cdcc7]
+INFO:     127.0.0.1:54196 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:53:48,918 | INFO     | app | GET /v1/models -> 404 (0 ms) [56694eae]
+INFO:     127.0.0.1:54196 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:54:18,922 | INFO     | app | GET /health -> 200 (3 ms) [8e353292]
+INFO:     127.0.0.1:50645 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:54:18,924 | INFO     | app | GET /v1/models -> 404 (0 ms) [e06747f0]
+INFO:     127.0.0.1:50645 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:54:48,929 | INFO     | app | GET /health -> 200 (1 ms) [3a64b53d]
+INFO:     127.0.0.1:55136 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:54:48,931 | INFO     | app | GET /v1/models -> 404 (1 ms) [c64bf863]
+INFO:     127.0.0.1:55136 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:55:18,936 | INFO     | app | GET /health -> 200 (1 ms) [17a3a7fa]
+INFO:     127.0.0.1:55141 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:55:18,939 | INFO     | app | GET /v1/models -> 404 (1 ms) [51d5e43a]
+INFO:     127.0.0.1:55141 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:55:48,942 | INFO     | app | GET /health -> 200 (1 ms) [0f489760]
+INFO:     127.0.0.1:56967 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:55:48,945 | INFO     | app | GET /v1/models -> 404 (0 ms) [5b918fd4]
+INFO:     127.0.0.1:56967 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:56:18,950 | INFO     | app | GET /health -> 200 (2 ms) [82596b72]
+INFO:     127.0.0.1:61636 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:56:18,952 | INFO     | app | GET /v1/models -> 404 (0 ms) [c52de4b0]
+INFO:     127.0.0.1:61636 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:56:48,956 | INFO     | app | GET /health -> 200 (1 ms) [56200740]
+INFO:     127.0.0.1:56532 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:56:48,959 | INFO     | app | GET /v1/models -> 404 (0 ms) [e306bd99]
+INFO:     127.0.0.1:56532 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:57:18,963 | INFO     | app | GET /health -> 200 (1 ms) [bd5d9b32]
+INFO:     127.0.0.1:56538 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:57:18,966 | INFO     | app | GET /v1/models -> 404 (0 ms) [64d5e324]
+INFO:     127.0.0.1:56538 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:57:48,971 | INFO     | app | GET /health -> 200 (1 ms) [7bb16f12]
+INFO:     127.0.0.1:50403 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:57:48,973 | INFO     | app | GET /v1/models -> 404 (0 ms) [4dadb911]
+INFO:     127.0.0.1:50403 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:58:18,978 | INFO     | app | GET /health -> 200 (1 ms) [201b1fbe]
+INFO:     127.0.0.1:50407 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:58:18,980 | INFO     | app | GET /v1/models -> 404 (0 ms) [4ec8398b]
+INFO:     127.0.0.1:50407 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:58:48,984 | INFO     | app | GET /health -> 200 (1 ms) [df16addc]
+INFO:     127.0.0.1:54092 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:58:48,987 | INFO     | app | GET /v1/models -> 404 (0 ms) [7b06476c]
+INFO:     127.0.0.1:54092 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:59:18,992 | INFO     | app | GET /health -> 200 (1 ms) [d7a82de1]
+INFO:     127.0.0.1:54099 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:59:18,995 | INFO     | app | GET /v1/models -> 404 (0 ms) [00d2a6e6]
+INFO:     127.0.0.1:54099 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 09:59:48,999 | INFO     | app | GET /health -> 200 (1 ms) [71d2e5d8]
+INFO:     127.0.0.1:56989 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 09:59:49,001 | INFO     | app | GET /v1/models -> 404 (0 ms) [d329ef50]
+INFO:     127.0.0.1:56989 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 10:00:19,005 | INFO     | app | GET /health -> 200 (1 ms) [011600fc]
+INFO:     127.0.0.1:56994 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 10:00:19,008 | INFO     | app | GET /v1/models -> 404 (0 ms) [1991b209]
+INFO:     127.0.0.1:56994 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 10:00:49,012 | INFO     | app | GET /health -> 200 (1 ms) [115dc093]
+INFO:     127.0.0.1:61659 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 10:00:49,015 | INFO     | app | GET /v1/models -> 404 (0 ms) [ae841b21]
+INFO:     127.0.0.1:61659 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 10:01:19,020 | INFO     | app | GET /health -> 200 (1 ms) [73c60594]
+INFO:     127.0.0.1:54066 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 10:01:19,023 | INFO     | app | GET /v1/models -> 404 (0 ms) [ec7e399b]
+INFO:     127.0.0.1:54066 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 10:01:49,027 | INFO     | app | GET /health -> 200 (1 ms) [33dcb343]
+INFO:     127.0.0.1:60277 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 10:01:49,029 | INFO     | app | GET /v1/models -> 404 (0 ms) [da7cba02]
+INFO:     127.0.0.1:60277 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 10:02:19,033 | INFO     | app | GET /health -> 200 (1 ms) [7b19b341]
+INFO:     127.0.0.1:60282 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 10:02:19,035 | INFO     | app | GET /v1/models -> 404 (0 ms) [12b798e7]
+INFO:     127.0.0.1:60282 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 10:02:49,041 | INFO     | app | GET /health -> 200 (1 ms) [755f41ca]
+INFO:     127.0.0.1:52534 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 10:02:49,043 | INFO     | app | GET /v1/models -> 404 (0 ms) [ca16bb4a]
+INFO:     127.0.0.1:52534 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 10:03:19,051 | INFO     | app | GET /health -> 200 (1 ms) [f330e5b5]
+INFO:     127.0.0.1:52539 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 10:03:19,053 | INFO     | app | GET /v1/models -> 404 (0 ms) [889cb8ad]
+INFO:     127.0.0.1:52539 - "GET /v1/models HTTP/1.1" 404 Not Found
+2026-09-24 10:04:10,663 | INFO     | app | GET /health -> 200 (1 ms) [b2633a83]
+INFO:     127.0.0.1:57593 - "GET /health HTTP/1.1" 200 OK
+2026-09-24 10:04:10,670 | INFO     | app | GET /v1/models -> 404 (0 ms) [bd85a129]
+INFO:     127.0.0.1:57593 - "GET /v1/models HTTP/1.1" 404 Not Found
